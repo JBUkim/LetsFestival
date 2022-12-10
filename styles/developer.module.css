@@ -89,8 +89,12 @@
 
 .text {
   font-family: 'BMHANNAPro';
-  font-size: 2vw;
+  font-size: 1.9vw;
   color: white;
+}
+
+.text:hover {
+  opacity: 0.4;
 }
 
 .textheader {
@@ -116,6 +120,10 @@
   -webkit-box-pack: justify;
   justify-content: space-between;
   align-items: flex-end;
+}
+
+.textfooterright {
+  text-align: right;
 }
 
 .CDbox1 {

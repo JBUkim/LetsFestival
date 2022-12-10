@@ -1,8 +1,8 @@
-import React from 'react';
-import Layout from '../components/Layout';
-import Profile from '../styles/developer.module.css';
-import { BsGithub } from 'react-icons/bs';
-import Link from 'next/link';
+import React from 'react'
+import Layout from '../components/Layout'
+import Profile from '../styles/developer.module.css'
+import { BsGithub, BsFillHouseDoorFill } from 'react-icons/bs'
+import Link from 'next/link'
 
 export default function developers() {
   return (
@@ -28,7 +28,16 @@ export default function developers() {
                 >
                   <BsGithub />
                 </Link>
-                {/* <div className={Profile.textheader}>호</div> */}
+                <div className={Profile.textfooterright}>
+                  <Link
+                    href="about"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className={Profile.text}
+                  >
+                    <BsFillHouseDoorFill />
+                  </Link>
+                </div>
               </div>
             </div>
           </div>
@@ -55,6 +64,16 @@ export default function developers() {
                 >
                   <BsGithub />
                 </Link>
+                <div className={Profile.textfooterright}>
+                  <Link
+                    href="https://portfolio-website-jbukim.vercel.app/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className={Profile.text}
+                  >
+                    <BsFillHouseDoorFill />
+                  </Link>
+                </div>
               </div>
             </div>
           </div>
@@ -80,6 +99,16 @@ export default function developers() {
                 >
                   <BsGithub />
                 </Link>
+                <div className={Profile.textfooterright}>
+                  <Link
+                    href=""
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className={Profile.text}
+                  >
+                    <BsFillHouseDoorFill />
+                  </Link>
+                </div>
               </div>
             </div>
           </div>
@@ -105,6 +134,16 @@ export default function developers() {
                 >
                   <BsGithub />
                 </Link>
+                <div className={Profile.textfooterright}>
+                  <Link
+                    href="https://portfolio-website-jbupark21.vercel.app/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className={Profile.text}
+                  >
+                    <BsFillHouseDoorFill />
+                  </Link>
+                </div>
               </div>
             </div>
           </div>
@@ -130,6 +169,16 @@ export default function developers() {
                 >
                   <BsGithub />
                 </Link>
+                <div className={Profile.textfooterright}>
+                  <Link
+                    href=""
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className={Profile.text}
+                  >
+                    <BsFillHouseDoorFill />
+                  </Link>
+                </div>
               </div>
             </div>
           </div>
@@ -137,5 +186,5 @@ export default function developers() {
         </button>
       </div>
     </Layout>
-  );
+  )
 }
