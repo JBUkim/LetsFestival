@@ -186,7 +186,7 @@ export default function Form() {
             <details class="group p-6" open>
               <summary class="flex cursor-pointer items-center justify-between">
                 <h2 class="text-lg font-medium text-gray-900">
-                  01. Let's Festival 홈페이지에 문제가 발생합니다.
+                  01. Let&#39;s Festival 홈페이지에 문제가 발생합니다.
                 </h2>
 
                 <span class="relative ml-1.5 h-5 w-5 flex-shrink-0">
@@ -432,7 +432,8 @@ export default function Form() {
                 <br />
                 &#8251; 유의사항
                 <br />
-                - 지나친 빈도로 연락을 하는 경우 스팸으로 분류되거나 차단될 가능성이 있습니다.
+                - 지나친 빈도로 연락을 하는 경우 스팸으로 분류되거나 차단될
+                가능성이 있습니다.
                 <br />
                 - 타인의 명의로 연락을 하는 경우는 도움을 받으실 수 없습니다.
                 <br />
