@@ -105,7 +105,7 @@ export default function Form() {
             연락처
           </h1>
           <div className="grid grid-cols-1 sm:grid-cols-2 mx-2 md:grid-cols-3 gap-6 max-w-6xl md:mx-auto my-20">
-            <div className="card p-8 shadow rounded-md flex flex-row items-center space-x-4 hover:cursor-pointer hover:shadow-lg transition duration-200">
+            <div className="card p-8 shadow rounded-md flex flex-row items-center space-x-4 hover:cursor-pointer hover:shadow-lg transition duration-200 hover:ring-2 hover:ring-green-400">
               <svg
                 width="24"
                 height="24"
@@ -129,7 +129,7 @@ export default function Form() {
               </svg>
               <p className="text-gray-500 font-light">+82 010-1234-5678</p>
             </div>
-            <div className="card p-8 shadow rounded-md flex flex-row items-center space-x-4 hover:shadow-lg cursor-pointer transition duration-200">
+            <div className="card p-8 shadow rounded-md flex flex-row items-center space-x-4 hover:shadow-lg cursor-pointer transition duration-200 hover:ring-2 hover:ring-green-400">
               <svg
                 width="24"
                 height="24"
@@ -146,10 +146,10 @@ export default function Form() {
                 />
               </svg>
               <p className="text-gray-500 font-light">
-                letsfestival@mywebsite.com
+                letsfestival@jmail.ac.kr
               </p>
             </div>
-            <div className="card p-8 shadow rounded-md flex flex-row items-center space-x-4 hover:shadow-lg cursor-pointer transition duration-200">
+            <div className="card p-8 shadow rounded-md flex flex-row items-center space-x-4 hover:shadow-lg cursor-pointer transition duration-200 hover:ring-2 hover:ring-green-400">
               <svg
                 width="24"
                 height="24"
@@ -172,7 +172,7 @@ export default function Form() {
                 />
               </svg>
               <p className="text-gray-500 font-light">
-                letsfestival@mywebsite.com
+                중부대학교 정보보호학과
               </p>
             </div>
           </div>
