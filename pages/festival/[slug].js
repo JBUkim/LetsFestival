@@ -99,7 +99,9 @@ export default function FestivalScreen() {
                           공식 사이트
                         </td>
                         <td class=" px-4 py-2 text-gray-700">
-                          <a href={festival.site}>{festival.site}</a>
+                          <a href={festival.site} target="_blank">
+                            {festival.site}
+                          </a>
                         </td>
                       </tr>
 
@@ -161,8 +163,8 @@ export default function FestivalScreen() {
                 {festival.restaurant} 에 대해서 알려드립니다.
               </p>
               <a
-                href={`https://map.kakao.com/link/map/${festival.location},${festival.lat},${festival.lng}`}
                 target="_blank"
+                href={`https://map.kakao.com/link/map/${festival.location},${festival.lat},${festival.lng}`}
                 class="mt-8 inline-flex items-center rounded border border-indigo-600 bg-indigo-600 px-8 py-3 text-white hover:bg-transparent hover:text-indigo-600 focus:outline-none focus:ring active:text-indigo-500"
               >
                 <span class="text-sm font-medium">지도 크게보기</span>
