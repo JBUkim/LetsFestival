@@ -75,6 +75,13 @@ export default function Layout({ title, children }) {
               </Link>
 
               <Link
+                href="/crypto/jwt"
+                class="block h-16 border-b-4 border-transparent leading-[4rem] hover:border-current hover:text-orange-400 mx-4"
+              >
+                Jwt
+              </Link>
+
+              <Link
                 href="/contact"
                 class="block h-16 border-b-4 border-transparent leading-[4rem] hover:border-current hover:text-orange-400 mx-4"
               >
@@ -87,19 +94,12 @@ export default function Layout({ title, children }) {
               >
                 개발자
               </Link>
-
-              <Link
-                href="/crypto/jwt"
-                class="block h-16 border-b-4 border-transparent leading-[4rem] hover:border-current hover:text-orange-400 mx-4"
-              >
-                Jwt
-              </Link>
             </nav>
-
+            
             <div class="ml-8 flex items-center">
               <div class="flex items-center divide-x divide-gray-100 border-x border-gray-100">
                 <span>
-                  {status === 'loading' ? (
+                  {status === "loading" ? (
                     <div
                       className="p-2 inline-flex justify-center rounded-md
             bg-orange-400 bg-opacity-80 px-4 py-2 text-sm font-medium
@@ -131,8 +131,8 @@ export default function Layout({ title, children }) {
                               <Link
                                 className={`${
                                   active
-                                    ? 'bg-orange-400 text-white'
-                                    : 'text-gray-900'
+                                    ? "bg-orange-400 text-white"
+                                    : "text-gray-900"
                                 } group flex w-full items-center rounded-md px-2 py-2 text-sm`}
                                 href="/accountsetting"
                               >
@@ -157,8 +157,8 @@ export default function Layout({ title, children }) {
                               <button
                                 className={`${
                                   active
-                                    ? 'bg-orange-400 text-white'
-                                    : 'text-gray-900'
+                                    ? "bg-orange-400 text-white"
+                                    : "text-gray-900"
                                 } group flex w-full items-center rounded-md px-2 py-2 text-sm`}
                                 href="/logout"
                                 onClick={logoutClickHandler}
